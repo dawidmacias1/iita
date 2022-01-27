@@ -30,7 +30,7 @@ import static org.springframework.test.annotation.DirtiesContext.ClassMode.AFTER
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = { WireMockConfig.class })
 @DirtiesContext(classMode = AFTER_CLASS)
-class NewsRestClientIT {
+class NewsRestClientTests {
 
     @Autowired
     private WireMockServer wireMockServer;

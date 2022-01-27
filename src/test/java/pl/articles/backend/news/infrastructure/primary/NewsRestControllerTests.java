@@ -27,7 +27,7 @@ import static org.springframework.test.annotation.DirtiesContext.ClassMode.AFTER
 @ContextConfiguration(classes = {WireMockConfig.class})
 @SpringBootTest(webEnvironment = RANDOM_PORT)
 @DirtiesContext(classMode = AFTER_CLASS)
-class NewsRestControllerIT {
+class NewsRestControllerTests {
 
     @Autowired
     private WireMockServer wireMockServer;

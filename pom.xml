@@ -11,7 +11,7 @@
     <groupId>pl.articles.backend</groupId>
     <artifactId>articles</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>articles-connector</name>
+    <name>articles</name>
     <description>articles</description>
     <properties>
         <java.version>11</java.version>
